@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    /* background-color: #0c022f; */
+    background-color: #0c022f;
 }
 .img-img-logo img{
     width: 13%;
@@ -18,7 +18,7 @@
     margin-top: -3%;
     margin-left: 7%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /* color: #f8e7e7; */
+    color: #f8e7e7;
     
 }
 .fir-fir-h{
@@ -30,7 +30,7 @@
     position: absolute;
 }
 .fir-fir-h h1{
-    /* color: #f8e7e7; */
+    color: #f8e7e7;
     /* position: absolute; */
     margin-top: 10%;
     margin-left: 20%;
@@ -38,19 +38,19 @@
 .fir-fir-h h2{
     margin-left: 45%;
     margin-top: 5%;
-    /* color: #f8e7e7; */
+    color: #f8e7e7;
 
 }
 .fir-fir-h h3{
     margin-left: 55%;
     margin-top: 10%;
-    /* color: #f8e7e7; */
+    color: #f8e7e7;
 
 }
 .fir-fir-h h4{
     margin-left: 75%;
     margin-top: 10%;
-    /* color: #f8e7e7; */
+    color: #f8e7e7;
 
 }
 
@@ -65,12 +65,16 @@
     margin-left: 50%;
     margin-top: -30%;
     text-transform: uppercase;
+    color: #f8e7e7;
+
 }
 .title-head-title p{
     margin-top: 3%;
     margin-left: 46%;
     width: 50%;
     font-size: 1.2rem;
+    color: #f8e7e7;
+
 }
 
 .btn-btn button{
@@ -86,9 +90,12 @@
 
 /* services */
 .ser-ser-h1 h1{
-    margin-left: 50%;
+    margin-left: 40%;
     margin-top: 10%;
     text-transform: uppercase;
+    color: #f8e7e7;
+    font-size: 2rem;
+
 }
 
 .grid-container {
@@ -101,7 +108,7 @@
     margin-top: 5%;
 }
 .grid-item {
-    background: #3498db;
+    background: #021d2f;
     color: white;
     display: flex;
     justify-content: center;
@@ -116,17 +123,19 @@ font-size: 1.1rem;
 margin-top: -18%;
 position: absolute;
 text-transform: uppercase;
+color: #f8b400;
 }
 .grid-container p{
     font-size: 1rem;
     margin-bottom: -15%;
     box-shadow: 0 4px 10px rgba(93, 6, 6, 0.909);
+    color: #f1d7bc;
 }
 
 /* contact */
 
 .contact-container {
-    background: white;
+    /* background: white; */
     padding: 25px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
