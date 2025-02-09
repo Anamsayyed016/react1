@@ -53,3 +53,148 @@
     /* color: #f8e7e7; */
 
 }
+
+/* about section */
+.img-img-abt img{
+    width: 25%;
+    margin-top: 30%;
+    margin-left: 20%;
+    border-radius: 10%;
+}
+.title-head-title h1{
+    margin-left: 50%;
+    margin-top: -30%;
+    text-transform: uppercase;
+}
+.title-head-title p{
+    margin-top: 3%;
+    margin-left: 46%;
+    width: 50%;
+    font-size: 1.2rem;
+}
+
+.btn-btn button{
+    margin-left: 50%;
+    font-size: 1.5rem;
+    margin-top:1%;
+    background-color: olive;
+    color: rgb(72, 5, 5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 6px;
+    border-radius: 15%;
+}
+
+/* services */
+.ser-ser-h1 h1{
+    margin-left: 50%;
+    margin-top: 10%;
+    text-transform: uppercase;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    width: 1100px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.grid-item {
+    background: #3498db;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.grid-container h1 {
+font-size: 1.1rem;
+margin-top: -18%;
+position: absolute;
+text-transform: uppercase;
+}
+.grid-container p{
+    font-size: 1rem;
+    margin-bottom: -15%;
+    box-shadow: 0 4px 10px rgba(93, 6, 6, 0.909);
+}
+
+/* contact */
+
+.contact-container {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    margin-top: -15%;
+    margin-left: 10%;
+}
+.contact-container h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 300%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+.contact-form textarea {
+    resize: none;
+    height: 100px;
+}
+.contact-form button {
+    background: #3498db;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 300%;
+
+}
+.contact-form button:hover {
+    background: #2980b9;
+}
+
+/* footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.footer a {
+    color: #f8b400;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .social-icons {
+    margin-top: 10px;
+}
+.footer .social-icons a {
+    margin: 0 10px;
+    font-size: 20px;
+}

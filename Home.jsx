@@ -15,8 +15,7 @@ function Home(){
         <ul>
                     <li>Home</li>
                     <li>About</li>
-                    <li>Portfolio</li>
-                    <li>Blog</li>
+                    <li>Services</li>
                     <li>Contact</li>
                     
                 </ul>  
